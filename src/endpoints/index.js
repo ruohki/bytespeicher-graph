@@ -5,7 +5,7 @@ import { apolloExpress, graphiqlExpress } from 'apollo-server';
 import bodyParser from 'body-parser';
 
 /* Endpunkt Objekte Importieren */
-import * as parkData from './parkdata';
+import * as byteStatus from './byteStatus';
 
 /*
   Helfer Funktionen
@@ -35,7 +35,7 @@ const registerEndpoint = (router, endpointObject) => {
 }
 
 /* Neue Endpunkte hier nach dem Schema einbinden */
-registerEndpoint(router, parkData);
+registerEndpoint(router, byteStatus);
 
 /* Export der Modulinhalte */
 export default router;

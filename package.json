@@ -37,9 +37,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "mongodb": "^2.2.31",
-    "promised-mongo": "^1.2.0"
-  },
-  "devDependencies": {
+    "promised-mongo": "^1.2.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-polyfill": "^6.26.0",

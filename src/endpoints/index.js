@@ -5,7 +5,7 @@ import { apolloExpress, graphiqlExpress } from 'apollo-server';
 import bodyParser from 'body-parser';
 
 /* Endpunkt Objekte Importieren */
-import * as byteStatus from './byteStatus';
+import * as byteStatus from './bytestatus';
 
 /*
   Helfer Funktionen

@@ -4,7 +4,8 @@
   "description": "Bytespeicher GraphQL API",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js --exec babel-node",
+    "start": "./node_modules/.bin/babel-node ./src/index.js",
+    "debug": "nodemon ./src/index.js --exec babel-node",
     "inspect": "babel-node ./src/index.js --inspect-brk"
   },
   "repository": {

@@ -1,0 +1,47 @@
+{
+  "name": "bytespeicher-graph",
+  "version": "0.0.1",
+  "description": "Bytespeicher GraphQL API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js --exec babel-node",
+    "inspect": "babel-node ./src/index.js --inspect-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruohki/bytespeicher-graph.git"
+  },
+  "keywords": [
+    "graphql",
+    "api",
+    "express",
+    "bytespeicher",
+    "erfurt"
+  ],
+  "author": "Tillmann Hübner <ruohki@gmail.com>",
+  "contributors": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruohki/bytespeicher-graph/issues"
+  },
+  "homepage": "https://github.com/ruohki/bytespeicher-graph#readme",
+  "dependencies": {
+    "apollo-connector-mongodb": "^1.1.18",
+    "apollo-server": "^0.3.3",
+    "apollo-server-express": "^1.1.2",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "graphql": "^0.11.3",
+    "graphql-tools": "^1.2.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.31",
+    "promised-mongo": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}

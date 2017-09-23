@@ -17,7 +17,7 @@ import MongoClient from 'mongodb';
 const mongoDB = 'mongodb://bytespeicher:byteberry23@ruohki.de:37017/bytespeicher';
 
 /* Konstanten */
-const routeName = "/parkdata"
+const routeName = "/bytestatus"
 
 /* Schema und Resolver */
 const executableSchema = makeExecutableSchema({
